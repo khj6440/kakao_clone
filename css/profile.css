@@ -1,0 +1,59 @@
+.top-header--transparent{
+  background-color: transparent;
+}
+
+.profile .profile__header{
+  height: 80vh;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIKNO8-_pcGA0JFgMvCzJKbypDHVEPaZNWDu6FOTkbDFXnIaTrHQ);
+  background-position: left;
+  background-size: 100%;
+  width: 100%;
+  position: relative;
+  top:-60px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+.profile__header .profile__header--container{
+  text-align: center;
+  position: relative;
+  bottom: -60px;
+}
+.profile__header--container img{
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.profile .profile__contaner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.profile__contaner input{
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.profile__actions{
+  display: flex;
+}
+.profile__action{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.profile__action-circle{
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color:#523737;
+  margin-bottom: 15px;
+}
+.profile__action-title{
+  font-size: 12px;
+  font-weight: 600;
+}
